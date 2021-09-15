@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Adrian Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
     
     <link
       rel="stylesheet"
@@ -11,104 +12,107 @@
     />
   </head>
   <body>
-    <section class="hero is-white is-fullheight">
-        <!-- Hero head: will stick at the top -->
-        <div class="hero-head">
-          <header class="navbar">
-            <div class="container">
-              <div class="navbar-brand">
-                <a class="navbar-item">
-                  <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+    <section class="hero is-dark is-fullheight">
+      <img alt="lemon tree" class="hero-background is-transparent" src="https://images.unsplash.com/photo-1596868971288-8a9f49ba36f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGVtb24lMjB0cmVlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" />
+
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+             
+              <span class="navbar-burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item" href="#aboutme">
+                 About Me
                 </a>
-                <span class="navbar-burger" data-target="navbarMenuHeroC">
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                <a class="navbar-item" href="#projects">
+                  Work
+                </a>
+                <a class="navbar-item" href="#contact">
+                  Contact information
+                </a>
+                <span class="navbar-item ">
+                  <a class="button is-success is-inverted"  download="assets/files/adrian_auchterlonie_resume.pdf">
+                    <span class="icon">
+                      <i class="far fa-file"></i>
+                    </span>
+                    <span >Resume Download <a download="assets/files/adrian_auchterlonie_resume.pdf"></a></span>
+                  </a>
                 </span>
               </div>
-              <div id="navbarMenuHeroC" class="navbar-menu">
-                <div class="navbar-end">
-                  <a class="navbar-item is-active">
-                    Home
-                  </a>
-                  <a class="navbar-item">
-                    Examples
-                  </a>
-                  <a class="navbar-item">
-                    Documentation
-                  </a>
-                  <span class="navbar-item">
-                    <a class="button is-success is-inverted">
-                      <span class="icon">
-                        <i class="fab fa-github"></i>
-                      </span>
-                      <span>Download</span>
-                    </a>
-                  </span>
-                </div>
-              </div>
             </div>
-          </header>
-        </div>
-      
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <p class="title">
-              Title
-            </p>
-            <p class="subtitle">
-              Subtitle
-            </p>
           </div>
-        </div>
-      
-        <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
-          <nav class="tabs is-boxed is-fullwidth">
-            <div class="container">
-              <ul>
-                <li class="is-active"><a>Overview</a></li>
-                <li><a>Modifiers</a></li>
-                <li><a>Grid</a></li>
-                <li><a>Elements</a></li>
-                <li><a>Components</a></li>
-                <li><a>Layout</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </section>
+        </header>
+      </div>
     
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <p class="title">
+            Adrian Auchterlonie
+          </p>
+          <p class="subtitle">
+            Full Stack Web Developer
+          </p>
+        </div>
+      </div>
+    
+      <!-- Hero footer: will stick at the bottom -->
+      <div class="hero-foot">
+        
+      </div>
+    </section>
+ 
+    
+  
     <main>
+    
       <div class="content is-large">
         <h1 id="aboutme">About Me</h1>
-        <figure class="image is-128x128">
-          <img
-            class="is-rounded"
-            src="assets/images/IMG_2375.JPG"
-          />
-        </figure>
-        <p>
-          Welcome to my portfolio! I am currently working to become a full stack
-          developer at University of Denver, and I have an expected graduation
-          date of October 2021. Additonally, I have my bachelors degree in
-          Political Science and a minor in English Litature from University of
-          Colorado, Boulder. Sko Buffs!
-        </p>
-        <p>
-          Previously, I worked at a tech start-up as a workforce management
-          analyst. Where I forcasted staffing and made intraday changes to meet
-          company service level goals. Additionally, I worked to create hiring
-          plans to maintain staff to meet service level goals and call quality.
-        </p>
-        <p>
-          I decided to make a career change to work in a field that allows for
-          more creativity. While allowing me to continue to use my strategic
-          thinking and problem solving skills. I look forward to being an ever
-          evolving developer that can create web applications that preform
-          effortlessly and efficiently.
-        </p>
+        </div>
+        <div class="tile is-ancestor">
+        <div class="content">
+        <div class="tile is-ancestor"></div>
+        <div class="tile is-parent is-11">
+          <figure class="image is-128x128">
+            <img
+              src="assets/images/IMG_2375.JPG"
+            />
+          </figure>
+          <article class="tile is-child box">
+            <div class="content">
+              <p>
+                Welcome to my portfolio! I am currently working to become a full stack
+                developer at University of Denver, and I have an expected graduation
+                date of October 2021. Additonally, I have my bachelors degree in
+                Political Science and a minor in English Litature from University of
+                Colorado, Boulder. Sko Buffs!
+              </p>
+              <p>
+                Previously, I worked at a tech start-up as a workforce management
+                analyst. Where I forcasted staffing and made intraday changes to meet
+                company service level goals. Additionally, I worked to create hiring
+                plans to maintain staff to meet service level goals and call quality.
+              </p>
+              <p>
+                I decided to make a career change to work in a field that allows for
+                more creativity. While allowing me to continue to use my strategic
+                thinking and problem solving skills. I look forward to being an ever
+                evolving developer that can create web applications that preform
+                effortlessly and efficiently.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
       </div>
       <section>
         <div class="content is-large">
@@ -118,8 +122,9 @@
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">Delishery</p>
-              <p class="subtitle">Github Repo<a href="https://github.com/adrianauch/Delishery"></a></p>
-              <p class="subtitle">Deployed Page <a href="https://adrianauch.github.io/Delishery/"></a></p>
+              <a class="subtitle" href="https://github.com/adrianauch/Delishery"> Github Repository</a>
+              <br>
+              <a class="subtitle" href="https://adrianauch.github.io/Delishery/">Deployed Application</a>
               <figure class="image is-4by3">
                 <img
                   src="assets/images/Delishery.png"
@@ -131,7 +136,7 @@
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">Team Profile Generator</p>
-              <p class="subtitle">Github Repository <a href="https://github.com/adrianauch/Team-Profile-Gen-hw"></a></p>
+              <a class="subtitle" href="https://github.com/adrianauch/Team-Profile-Gen-hw">Github Respoitory</a>
               <figure class="image is-4by3">
                 <img
                   src="assets/images/teamprofilegen.png"
@@ -143,8 +148,9 @@
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">Password Generator</p>
-              <p class="subtitle">Github Respository <a href="https://github.com/adrianauch/password-generator-hw"></a></p>
-              <p class="subtitle">Deployed Application <a href="https://github.com/adrianauch/password-generator-hw"></a></p>
+              <a class="subtitle" href="https://github.com/adrianauch/password-generator-hw">Github Respository</a>
+              <br>
+              <a class="subtitle" href="https://github.com/adrianauch/password-generator-hw">Deployed Application</a>
               <div class="content">
                 <figure class="image is-4by3">
                     <img
@@ -165,8 +171,9 @@
                 <div class="tile is-parent">
                     <article class="tile is-child box">
                       <p class="title">NFTy</p>
-                      <p class="subtitle">Github Repository<a href="https://github.com/HavoxPrime/NFTy"></a></p>
-                      <p class="subtitle">Deployed Application<a href="https://project2-nfty.herokuapp.com/"></a></p>
+                      <a class="subtitle" href="https://github.com/HavoxPrime/NFTy">Github Repository</a>
+                      <br>
+                      <a class="subtitle" href="https://project2-nfty.herokuapp.com/">Deployed Application</a>
                       <figure class="image is-4by3">
                         <img
                           src="assets/images/NFTy.png"
@@ -181,8 +188,9 @@
               <div class="tile is-parent">
                 <article class="tile is-child box">
                   <p class="title">Work Day Planner</p>
-                  <p class="subtitle">Github Repository <a href="https://github.com/adrianauch/Work-Planner-hw"></a></p>
-                  <p class="subtitle">Deployed Application <a href="https://adrianauch.github.io/Work-Planner-hw/"></a></p>
+                  <a  class="subtitle" href="https://github.com/adrianauch/Work-Planner-hw">Github Repository</a>
+                  <br>
+                   <a class="subtitle" href="https://adrianauch.github.io/Work-Planner-hw/">Deployed Application</a>
                   <figure class="image is-4by3">
                     <img
                       src="assets/images/workday.png"
@@ -197,8 +205,9 @@
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">Weather Dashboard</p>
-              <p class="subtitle">Github Repository <a href="https://github.com/adrianauch/WeatherDashBoard-hw"></a></p>
-              <p class="subtitle">Deployed Application <a href="https://adrianauch.github.io/WeatherDashBoard-hw/"></a></p>
+              <a class="subtitle" href="https://github.com/adrianauch/WeatherDashBoard-hw">Github Repository</a>
+              <br>
+              <a class="subtitle" href="https://adrianauch.github.io/WeatherDashBoard-hw/">Deployed Application</a>
               <figure class="image is-4by3">
                 <img
                   src="assets/images/Weatherdash.png"
@@ -218,22 +227,22 @@
         <nav class="level">
             <p class="level-item has-text-centered">
                 <i class="fab fa-linkedin"></i>
-              <a class="link is-info">LinkedIn</a>
+              <a class="link is-info" href="https://www.linkedin.com/in/aauchterlonie/" target="_blank">LinkedIn</a>
             </p>
             <p class="level-item has-text-centered">
                 <i class="fas fa-envelope-open-text"></i>
-              <a class="link is-info">Email</a>
+              <a class="link is-info" href="mailto:adrian.auch11@gmail.com.com">Email</a>
             </p>
             <p class="level-item has-text-centered">
-              <img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;">
+              <img src="assets/images/logo1.png" alt="assets/images/logo.png" style="height: 200px;">
             </p>
             <p class="level-item has-text-centered">
                 <i class="fab fa-github-square"></i>
-              <a class="link is-info">Github</a>
+              <a class="link is-info" href="https://github.com/adrianauch" target="_blank">Github</a>
             </p>
             <p class="level-item has-text-centered">
                 <i class="fas fa-file-contract"></i>
-              <a class="link is-info">Contact</a>
+              <a class="link is-info" download="assets/files/adrian_auchterlonie_resume.pdf">Resume</a>
             </p>
           </nav>
       </section>
